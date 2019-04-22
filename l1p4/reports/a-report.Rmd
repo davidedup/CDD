@@ -23,7 +23,7 @@ atividade = read_projectdata()
 glimpse(atividade)
 ```
 
-# Existe uma relação entre o numero de vonteúdo próprio e número de seguidores?
+# Existe uma relação entre o numero de conteúdo próprio e número de seguidores?
 ```{r}
 atividade %>% 
   na.omit(atividade)%>%
